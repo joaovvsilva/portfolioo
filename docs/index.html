@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./statics/css/styles.css">
+    <link rel="shortcut icon" href="./statics/images/LOGO.png" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <aside class="sidebar " data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="./statics/images/perfil.png" alt="avatar" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Richard Hanrick">João Vitor</h1>
+                    <p class="title">Dev Iniciante</p>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Mais Contatos</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="joaovitorvenancio2000@gmail.com"
+                                class="contact-link">joaovitorvenancio2000@gmail.com</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Telefone</p>
+
+                            <a href="https://wa.me/5512991952297?text=Olá!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20o%20seu%20trabalho"
+                                target="_blank" class="contact-link">+55 (12) 99195-2297</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Aniversário</p>
+
+                            <time datetime="1982-06-23">10 Mar, 2005</time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Localização</p>
+
+                            <address>São José dos Campos - SP</address>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item"><a href="https://github.com/joaovvsilva" target="_blank"
+                            class="social-link"><ion-icon name="logo-github"></ion-icon></a></li>
+                    <li class="social-item"><a
+                            href="https://www.linkedin.com/in/joão-vitor-venâncio-da-silva-b0239819b/" target="_blank"
+                            class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li class="social-item"><a
+                            href="https://wa.me/5512991952297?text=Olá!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20o%20seu%20trabalho."
+                            target="_blank" class="social-link"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+                    <li class="social-item"><a href="https://www.instagram.com/_v_jao_v_/" target="_blank"
+                            class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><button class="navbar-link active" data-nav-link>Sobre</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Resumo</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
+                </ul>
+            </nav>
+
+            <article class="about active" data-page="sobre">
+                <header>
+                    <h2 class="h2 article-title">Sobre mim</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>Sou um programador iniciante, estudante de Desenvolvimento de Software Multiplataformas, e estou
+                        focado em me especializar em front-end. Estou aprendendo constantemente e aprimorando minhas
+                        habilidades para criar experiências digitais mais intuitivas e agradáveis. O que me motiva é
+                        transformar ideias em soluções práticas que realmente façam a diferença na vida das pessoas.</p>
+                    <p>Para me especializar cada vez mais e aprimorar minhas habilidades práticas, realizo trabalhos
+                        amadores fora da faculdade, onde tenho a oportunidade de aplicar o que aprendo, enfrentar novos
+                        desafios e evoluir constantemente como desenvolvedor.</p>
+                </section>
+
+                <section class="testimonials">
+                    <h3 class="h3 testimonials-title">Certificados</h3>
+
+                    <ul class="testimonials-list has-scrollbar">
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./statics/images/certo.png" alt="avatar" data-testimonials-avatar
+                                        width="60">
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title></h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <img src="./statics/images/C1.jpg" alt="Comentário Imagem 1"
+                                        style="max-width:100%;border-radius:8px;">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./statics/images/certo.png" alt="avatar" data-testimonials-avatar
+                                        width="60">
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title></h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <img src="./statics/images/C2.jpg" alt="Comentário Imagem 2"
+                                        style="max-width:100%;border-radius:8px;">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <div class="modal-container" data-modal-container>
+                    <div class="overlay " data-overlay></div>
+
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn><ion-icon
+                                name="close-outline"></ion-icon></button>
+
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="Daniel Lewis" width="80"
+                                    data-modal-img>
+                            </figure>
+
+                            <img src="https://i.postimg.cc/mZ00RwX7/icon-quote.png" alt="quote icon">
+                        </div>
+
+                        <div class="modal-content">
+                            <h4 class="h3 modal-title" data-modal-title></h4>
+                            <time datetime="2023-06-14"></time>
+
+                            <div class="modal-text" data-modal-text>
+                                <p></p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <section class="clients">
+                    <h3 class="h3 clients-title">Tecnologias</h3>
+
+                    <ul class="clients-list has-scrollbar">
+                        <li class="clients-item">
+                            <a href="#"><img src="https://skillicons.dev/icons?i=html" alt="HTML"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://skillicons.dev/icons?i=css" alt="CSS"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://skillicons.dev/icons?i=python" alt="PYTHON"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://skillicons.dev/icons?i=mysql" alt="MYSQL"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://skillicons.dev/icons?i=flask" alt="FLASK"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://skillicons.dev/icons?i=git" alt="GIT"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://skillicons.dev/icons?i=bootstrap" alt="BOOTSTRAP"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://skillicons.dev/icons?i=figma" alt="FIGMA"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://skillicons.dev/icons?i=aws" alt="AWS"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://skillicons.dev/icons?i=docker" alt="DOCKER"></a>
+                        </li>
+                    </ul>
+                </section>
+
+            </article>
+
+            <article class="resume" data-page="resumo">
+                <header>
+                    <h2 class="h2 article-title">Resumo</h2>
+                </header>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+                        <h3 class="h3">Educação</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">FATEC São José dos Campos - Prof. Jessen Vidal</h4>
+                            <span>2024 - Atualmente</span>
+                            <p class="timeline-text">Iniciei a faculdade de Desenvolvimento de Software
+                                Multiplataformas.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Escola Estadual Sonia Maria Alexandre Pereira</h4>
+                            <span>2021 - 2022</span>
+                            <p class="timeline-text">Concluí o ensino médio.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Escola Estadual Professor Alceu Maynard Araújo</h4>
+                            <span>2018 - 2021</span>
+                            <p class="timeline-text">Finalizei o ensino fundamental e comecei o ensino médio, até o meio
+                                do Segundo Ano.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Colégio Estadual Marcelino Champagnat</h4>
+                            <span>2016 - 2018</span>
+                            <p class="timeline-text">Iniciei a segunda metade do ensino fundamental, até o meio do
+                                Oitavo Ano.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Escola Municipal Eurides Cunha</h4>
+                            <span>2013 - 2015</span>
+                            <p class="timeline-text">Continuei meu ensino fundamental, do Terceiro Ano até o Quinto Ano.
+                            </p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Escola Municipal Ruth Ferreira De Souza</h4>
+                            <span>2011 - 2013</span>
+                            <p class="timeline-text">Iniciei meu ensino fundamental nesta escola, até a metade do
+                                Terceiro Ano.</p>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Projetos</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Projeto de API - Site de Dados (1º Semestre 2025)</h4>
+                            <span>2025</span>
+                            <p class="timeline-text">Criação de um site de dados que consome uma API para exibir dados
+                                em tempo real, como estatísticas e gráficos interativos. O projeto visa apresentar
+                                informações de forma dinâmica e visual, proporcionando uma experiência interativa para o
+                                usuário, com atualizações constantes e conteúdo sempre relevante.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Projeto de API - Site de Vereadores (2º Semestre 2024)
+                            </h4>
+                            <span>2024</span>
+                            <p class="timeline-text">Desenvolvimento de um site de vereadores integrado a uma API para
+                                exibir informações de vereadores, como dados pessoais, projetos de lei e mais. A API foi
+                                consumida com foco em requisições e tratamento de dados para apresentação dinâmica no
+                                site.</p>
+                        </li>
+
+
+
+
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Projeto Pessoal: Portfolio Pessoal</h4>
+                            <span>2024 - Atualmente</span>
+                            <p class="timeline-text">Criação do meu portfólio pessoal para apresentar meus projetos
+                                acadêmicos e pessoais, utilizando HTML, CSS e JavaScript. O objetivo é não apenas
+                                mostrar meus trabalhos, mas também praticar e aprimorar minhas habilidades de front-end.
+                            </p>
+                        </li>
+                    </ol>
+
+                </section>
+
+                <section class="skill">
+                    <h3 class="h3 skills-title">My Skills</h3>
+
+                    <ul class="skills-list content-card">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Google Sheets</h5>
+                                <data value="80">100%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 100%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">HTML</h5>
+                                <data value="70">60%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 60%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">CSS</h5>
+                                <data value="90">50%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 50%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Design</h5>
+                                <data value="50">50%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 50%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="portfolio" data-page="portfolio">
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+
+                <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item"><button class="active" data-filter-btn>Todos</button></li>
+                        <li class="filter-item"><button data-filter-btn>Profissional</button></li>
+                        <li class="filter-item"><button data-filter-btn>Pessoal</button></li>
+                        <li class="filter-item"><button data-filter-btn>Acadêmico</button></li>
+                    </ul>
+
+                    <div class="filter-select-box">
+                        <button class="filter-select " data-select>
+                            <div class="select-value" data-select-value>Select Category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+
+                        <ul class="select-list">
+                            <li class="select-item"><button data-select-item>Todos</button></li>
+                            <li class="select-item"><button data-select-item>Profissional</button></li>
+                            <li class="select-item"><button data-select-item>Pessoal</button></li>
+                            <li class="select-item"><button data-select-item>Acadêmico</button></li>
+                        </ul>
+                    </div>
+
+                    <ul class="project-list">
+                        <li class="project-item active" data-filter-item data-category="acadêmico">
+                            <a href="api.html">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./statics/images/Pagina Home.png" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Desempenho de Vereadores</h3>
+                                <p class="project-category">Acadêmico</p>
+                            </a>
+                        </li>
+                        <li class="project-item active" data-filter-item data-category="pessoal">
+                            <a href="portfolio1.0/docs/index.html" target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./statics/images/Port1.0.png" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Portfolio 1.0</h3>
+                                <p class="project-category">Pessoal</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <script src="./statics/js/main.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
